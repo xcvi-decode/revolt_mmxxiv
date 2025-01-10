@@ -68,7 +68,8 @@ body {
 }
 
 /* Vision of Future Section Styles */
-.vision {
+.vision,
+.news-section {
   margin-bottom: 80px;
 }
 .section-title h2 {
@@ -157,4 +158,62 @@ body {
 }
 .quotation .position {
   color: rgba(14, 14, 14, 0.6);
+}
+
+/* News Section Styles */
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+.news-item {
+  display: flex;
+  padding: 48px;
+  border-radius: 24px;
+  background: #fff;
+  gap: 32px;
+  align-items: center;
+}
+.news-thumbnail {
+  width: 40%;
+}
+.news-thumbnail img {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+  height: 350px;
+}
+.news-details {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  width: 60%;
+}
+.news-details h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+}
+.news-details p {
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+}
+.news-details .newspaper-logo {
+  width: 15%;
+}
+.image-right-view {
+  flex-direction: row-reverse;
+}
+.news-details .news-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 26px;
+  border-radius: 8px;
+  background: #006a50;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
 }
