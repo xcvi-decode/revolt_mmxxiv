@@ -66,3 +66,95 @@ body {
   background: #006a50;
   padding: 17px 34px;
 }
+
+/* Vision of Future Section Styles */
+.vision {
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.section-title p,
+.card-item p {
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+.card-item {
+  padding: 32px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 30%;
+}
+.card-item h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+}
+.bg-blue {
+  background: rgba(84, 144, 245, 0.2);
+}
+.bg-green {
+  background: #c6e4d6;
+}
+.bg-yellow {
+  background: #f7ebcf;
+}
+.card-image {
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.card-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  width: fit-content;
+}
+.btn-blue {
+  background: #5490f5;
+}
+.btn-green {
+  background: #09a15c;
+}
+.btn-yellow {
+  background: #ffc239;
+}
+
+/* Quotation Section Styles */
+.quotation {
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  position: relative;
+}
+.quotation img {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+.quotation h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  margin-top: 12px;
+}
+.quotation p {
+  color: rgba(14, 14, 14, 0.8);
+  line-height: 24px;
+}
+.quotation .position {
+  color: rgba(14, 14, 14, 0.6);
+}
